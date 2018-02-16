@@ -1,0 +1,71 @@
+
+.gwtButton{
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.gwtTextBox{
+    color: rgb(26, 66, 37);
+    border-radius: 3px;
+    border-color: rgb(53,167,110);
+    transition: 0.2s;
+}
+
+.gwtLabel{
+    color: rgb(36, 102, 62);
+}
+
+.gwtTitleTable{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(64,199,129);
+    color: rgb(26, 66, 37);
+    border: 1px solid rgb(176, 248, 190);
+    margin: 0;
+    padding: 0;
+}
+
+.gwtRowTable{
+    color: rgb(26, 66, 37);
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(176, 248, 190);
+}
+
+.gwtZebraOne{
+    background-color: rgb(176, 248, 190);
+}
+
+.gwtZebraTwo{
+    background-color: rgb(73, 227, 147);
+}
+.gwtRemoveButton{
+    background: #fb5d4a;
+    color: #9e3028;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    /*padding: .8em 1em calc(.8em + 3px);*/
+    border-radius: 3px;
+    box-shadow: 0 -3px rgb(200, 57, 43) inset;
+    transition: 0.2s;
+
+}
+
+.gwtPageButton{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 50%;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}

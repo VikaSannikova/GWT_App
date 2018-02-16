@@ -1,0 +1,5 @@
+<root>
+    <item name='org.fusesource.restygwt.client.MethodCallback'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
