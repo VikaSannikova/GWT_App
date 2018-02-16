@@ -41,7 +41,7 @@ public class Database {
     }
 
     // Сохранить список в .json файл
-    public void saveInJsonFile() {  //слишком сложно
+    public void saveInJsonFile() {  //слишком сложно но можно понять принцип
         File file = new File(PATH);
         ObjectMapper objectMapper = new ObjectMapper();
         ObjectWriter objectWriter = objectMapper.writer(new DefaultPrettyPrinter());
