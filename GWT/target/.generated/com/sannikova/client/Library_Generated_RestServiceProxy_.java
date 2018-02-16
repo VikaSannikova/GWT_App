@@ -22,8 +22,8 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
   public org.fusesource.restygwt.client.Dispatcher getDispatcher() {
     return this.dispatcher;
   }
-  public void addBook(com.sannikova.shared.model.Book newBook, int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.model.Page> callback) {
-    final com.sannikova.shared.model.Book final_newBook = newBook;
+  public void addBook(com.sannikova.shared.Book newBook, int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.Page> callback) {
+    final com.sannikova.shared.Book final_newBook = newBook;
     final int final_page = page;
     final org.fusesource.restygwt.client.Method __method =
     getResource()
@@ -32,12 +32,12 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
     __method.setDispatcher(this.dispatcher);
     __method.header(org.fusesource.restygwt.client.Resource.HEADER_ACCEPT, "application/json");
     __method.header(org.fusesource.restygwt.client.Resource.HEADER_CONTENT_TYPE, "application/json");
-    __method.json(com.sannikova.shared.model.Book_Generated_JsonEncoderDecoder_.INSTANCE.encode(newBook));
+    __method.json(com.sannikova.shared.Book_Generated_JsonEncoderDecoder_.INSTANCE.encode(newBook));
     try {
-      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.model.Page>(__method, callback) {
-        protected com.sannikova.shared.model.Page parseResult() throws Exception {
+      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.Page>(__method, callback) {
+        protected com.sannikova.shared.Page parseResult() throws Exception {
           try {
-            return com.sannikova.shared.model.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
+            return com.sannikova.shared.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
           } catch (Throwable __e) {
             throw new org.fusesource.restygwt.client.ResponseFormatException("Response was NOT a valid JSON document", __e);
           }
@@ -47,7 +47,7 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
       callback.onFailure(__method,__e);
     }
   }
-  public void getPage(int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.model.Page> callback) {
+  public void getPage(int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.Page> callback) {
     final int final_page = page;
     final org.fusesource.restygwt.client.Method __method =
     getResource()
@@ -56,10 +56,10 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
     __method.setDispatcher(this.dispatcher);
     __method.header(org.fusesource.restygwt.client.Resource.HEADER_ACCEPT, "application/json");
     try {
-      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.model.Page>(__method, callback) {
-        protected com.sannikova.shared.model.Page parseResult() throws Exception {
+      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.Page>(__method, callback) {
+        protected com.sannikova.shared.Page parseResult() throws Exception {
           try {
-            return com.sannikova.shared.model.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
+            return com.sannikova.shared.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
           } catch (Throwable __e) {
             throw new org.fusesource.restygwt.client.ResponseFormatException("Response was NOT a valid JSON document", __e);
           }
@@ -69,7 +69,7 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
       callback.onFailure(__method,__e);
     }
   }
-  public void removeBook(java.lang.Integer id, int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.model.Page> callback) {
+  public void removeBook(java.lang.Integer id, int page, org.fusesource.restygwt.client.MethodCallback<com.sannikova.shared.Page> callback) {
     final java.lang.Integer final_id = id;
     final int final_page = page;
     final org.fusesource.restygwt.client.Method __method =
@@ -81,10 +81,10 @@ public class Library_Generated_RestServiceProxy_ implements com.sannikova.client
     __method.header(org.fusesource.restygwt.client.Resource.HEADER_CONTENT_TYPE, "application/json");
     __method.json(org.fusesource.restygwt.client.AbstractJsonEncoderDecoder.INT.encode(id));
     try {
-      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.model.Page>(__method, callback) {
-        protected com.sannikova.shared.model.Page parseResult() throws Exception {
+      __method.send(new org.fusesource.restygwt.client.AbstractRequestCallback<com.sannikova.shared.Page>(__method, callback) {
+        protected com.sannikova.shared.Page parseResult() throws Exception {
           try {
-            return com.sannikova.shared.model.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
+            return com.sannikova.shared.Page_Generated_JsonEncoderDecoder_.INSTANCE.decode(com.google.gwt.json.client.JSONParser.parse(__method.getResponse().getText()));
           } catch (Throwable __e) {
             throw new org.fusesource.restygwt.client.ResponseFormatException("Response was NOT a valid JSON document", __e);
           }
