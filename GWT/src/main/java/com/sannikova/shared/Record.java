@@ -1,4 +1,4 @@
-package com.sannikova.shared.model;
+package com.sannikova.shared;
 
 import java.util.ArrayList;
 import java.util.List;

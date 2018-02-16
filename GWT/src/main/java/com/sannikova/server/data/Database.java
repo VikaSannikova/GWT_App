@@ -1,6 +1,6 @@
 package com.sannikova.server.data;
 
-import com.sannikova.shared.model.Record;
+import com.sannikova.shared.Record;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;

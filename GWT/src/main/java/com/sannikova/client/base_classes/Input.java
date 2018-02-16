@@ -1,7 +1,7 @@
 package com.sannikova.client.base_classes;
 
 
-import com.sannikova.shared.model.Book;
+import com.sannikova.shared.Book;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.*;
 

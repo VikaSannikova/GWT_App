@@ -3,7 +3,7 @@ package com.sannikova.client;
 
 import com.sannikova.client.controllers.BookList;
 import com.sannikova.client.base_classes.Input;
-import com.sannikova.shared.model.Book;
+import com.sannikova.shared.Book;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.RootPanel;

@@ -1,7 +1,7 @@
 package com.sannikova.client;
 
-import com.sannikova.shared.model.Book;
-import com.sannikova.shared.model.Page;
+import com.sannikova.shared.Book;
+import com.sannikova.shared.Page;
 import com.google.gwt.core.client.GWT;
 import org.fusesource.restygwt.client.MethodCallback;
 import org.fusesource.restygwt.client.RestService;

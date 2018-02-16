@@ -1,4 +1,4 @@
-package com.sannikova.shared.model;
+package com.sannikova.shared;
 
 public class Book {
     private Integer id;

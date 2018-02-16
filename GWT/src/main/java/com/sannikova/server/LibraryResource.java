@@ -2,9 +2,9 @@ package com.sannikova.server;
 
 
 import com.sannikova.server.data.Database;
-import com.sannikova.shared.model.Book;
-import com.sannikova.shared.model.Page;
-import com.sannikova.shared.model.Record;
+import com.sannikova.shared.Book;
+import com.sannikova.shared.Page;
+import com.sannikova.shared.Record;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
